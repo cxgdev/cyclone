@@ -4,6 +4,15 @@ A customizable template for Discord bots!
 ## About
 Cyclone is a customizable Discord server bot that anyone can run!
 
+
+## Replit Bot
+It is recommended for beginners to run the bot on [replit](https://replit.com/).
+
+To do this, create an account on replit then create a new project. Name it whatever you want, then click `Import from GitHub`, type github.com/cxgmc/cyclone-bot. Now you can create it.
+
+Once you have created the project, select node.js as the language (on the right), and the run button should be **`node index.js`**
+
+
 ## Setup
 To use Cyclone, you need to first create a bot.
 
