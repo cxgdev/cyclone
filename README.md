@@ -1,4 +1,4 @@
-# Cyclone
+# ![Cyclone logo](https://github.com/cxgmc/cyclone-bot/blob/main/brand/CycloneLogo@0.75x.png?raw=true)
 A customizable template for Discord bots!
 
 ## About
