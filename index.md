@@ -59,6 +59,6 @@ Go the [presence] section of the config, and change `afk` to `true` or `false`.
 Go the [presence] section of the config, and change `activity` to whatever you like. *(Make sure it's wrapped in quotes!)*
 
 #### Change Activity Type
-Go the [presence] section of the config, and change `activitytype` to `"STREAMING"` `"WATCHING"`, `"PLAYING"`, or `"COMPETING"`.
+Go the [presence] section of the config, and change `activitytype` to `"STREAMING"`, `"WATCHING"`, `"PLAYING"`, or `"COMPETING"`.
 
 Congrats, you just configured your first part! The rest of the config is self-explanatory, and everything has comments on it explaining what it does and how to change it!
