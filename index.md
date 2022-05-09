@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+# ![Cyclone logo](https://github.com/cxgmc/cyclone-bot/blob/main/brand/CycloneLogo@0.75x.png?raw=true)
+A customizable template for Discord bots!
 
-You can use the [editor on GitHub](https://github.com/cxgmc/cyclone-bot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## About
+Cyclone is a customizable Discord server bot that anyone can run!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Replit Bot
+It is recommended for beginners to run the bot on [replit](https://replit.com/).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To do this, create an account on replit then create a new project. Name it whatever you want, then click `Import from GitHub`, type github.com/cxgmc/cyclone-bot. Now you can create it.
 
-```markdown
-Syntax highlighted code block
+Once you have created the project, select node.js as the language (on the right), and the run button should be **`node index.js`**
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Setup
+To use Cyclone, you need to first create a bot.
 
-1. Numbered
-2. List
+### Create an Application
+To create an application, go to the <a href="https://discord.com/developers/applications" target="_blank">Discord Developer Portal</a> and click `New Application` in the top right.
 
-**Bold** and _Italic_ and `Code` text
+Give your application a nice name *(This will not be your bot's name)*
 
-[Link](url) and ![Image](src)
-```
+If you want, you can add an About Me section for your bot in the Description section of this page.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+#### Creating the Bot
+Click on `Bot`, then click on `Add Bot`, then `Yes, do it!`
 
-### Jekyll Themes
+Give your bot a nice name and icon.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cxgmc/cyclone-bot/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In the Token section, click on `Copy`
 
-### Support or Contact
+Go to the `.env` file and where it says `TOKEN`, put your bots token.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+> Example: `TOKEN=9182907147858274712893989184861829`
+
+##### Find Your Guild ID
+
+To find your server's Guild ID, you need to enable Developer Mode in User Settings > Advanced > Developer Mode
+
+Right click on your server's icon on the left side, and click `Copy ID`.
+
+##### Find A Channel's ID
+
+Similar to finding a Guild ID, you need to right click on the channel's name and click `Copy ID`
+
+Congrats! Your bot is now set up.
+
+## Config
+
+To configure your bot, go to the `config.toml` file in the root directory of your bot.
+
+This is where you can customize everything about the bot. Let's begin by configuring the Rich Prescence (Bot's Activity/Game).
+
+### Change Status
+Go the [presence] section of the config, and change `status` to `"online"` `"idle"`, `"dnd"`, or `"offline"`.
+
+#### Change AFK Status
+Go the [presence] section of the config, and change `afk` to `true or `false`.
+
+### Change Activity
+Go the [presence] section of the config, and change `activity` to whatever you like. *(Make sure it's wrapped in quotes!)*
+
+#### Change Activity Type
+Go the [presence] section of the config, and change `activitytype` to `"STREAMING"` `"WATCHING"`, `"PLAYING"`, or `"COMPETING"`.
+
+Congrats, you just configured your first part! The rest of the config is self-explanatory, and everything has comments on it explaining what it does and how to change it!
