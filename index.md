@@ -50,10 +50,10 @@ To configure your bot, go to the `config.toml` file in the root directory of you
 This is where you can customize everything about the bot. Let's begin by configuring the Rich Prescence (Bot's Activity/Game).
 
 ### Change Status
-Go the [presence] section of the config, and change `status` to `"online"` `"idle"`, `"dnd"`, or `"offline"`.
+Go the [presence] section of the config, and change `status` to `"online"`, `"idle"`, `"dnd"`, or `"offline"`.
 
 #### Change AFK Status
-Go the [presence] section of the config, and change `afk` to `true or `false`.
+Go the [presence] section of the config, and change `afk` to `true` or `false`.
 
 ### Change Activity
 Go the [presence] section of the config, and change `activity` to whatever you like. *(Make sure it's wrapped in quotes!)*
