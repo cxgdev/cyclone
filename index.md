@@ -47,7 +47,7 @@ Congrats! Your bot is now set up.
 
 To configure your bot, go to the `config.toml` file in the root directory of your bot.
 
-This is where you can customize everything about the bot. Let's begin by configuring the Rich Prescence (Bot's Activity/Game).
+This is where you can customize everything about the bot. Let's begin by configuring the Rich Presence (Bot's Activity/Game).
 
 ### Change Status
 Go the [presence] section of the config, and change `status` to `"online"`, `"idle"`, `"dnd"`, or `"offline"`.
