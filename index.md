@@ -1,4 +1,4 @@
-## About
+## Cyclone
 Cyclone is a customizable Discord server bot that anyone can run!
 
 
